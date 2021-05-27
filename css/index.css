@@ -1,0 +1,7 @@
+#container-botao-nav {
+    justify-content: flex-end;
+}
+
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.513);
+}
