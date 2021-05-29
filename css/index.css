@@ -1,7 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/** NAVBAR **/
+.navbar {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 #container-botao-nav {
     justify-content: flex-end;
 }
 
 .bg-dark-transparent {
     background-color: rgba(0, 0, 0, 0.513);
+}
+
+/** PARTICLES **/
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+/** HEADER **/
+#home {
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+}
+
+#home::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.582);
+    content: '';
+    box-sizing: border-box;
+}
+
+.perfil>* {
+    margin: 10px 0 0;
+}
+
+#social {
+    margin: 20px 0 0;
+
+}
+
+.perfil-container {
+    margin: 0;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-perfil {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    display: inline-block;
+}
+
+.perfil h3 {
+    font-weight: 500;
+    font-family: 'Montserrat',
+        sans-serif !important;
+    font-size: 16px;
+}
+
+.perfil b {
+    font-size: 24px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 100;
+}
+
+#home ul li {
+    display: inline;
+    color: white;
+    margin: 0 5px;
+}
+
+#home ul li a {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    color: #fff;
+}
+
+#home ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.377);
 }
