@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
+.cd-headline.clip .cd-words-wrapper {
+    display: inline-block;
+    perspective: 300px;
+}
+
+
+
 /** NAVBAR **/
 .navbar {
     top: 0;
@@ -32,7 +39,7 @@ body {
 
 /** HEADER **/
 #home {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(img/header-bg.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
